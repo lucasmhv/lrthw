@@ -1,0 +1,50 @@
++ -> Mais, adição, concatenar, etc
+- -> Menos, subtração
+/ -> Divisão
+* -> Multiplicação
+% -> Módulo
+= -> Recebe, atribui valor
+&& -> E / and
+|| -> Ou / or
+! -> Não / not
+!= -> Não igual / not equal
+== -> Igual / equal
+>= -> Maior que igual / greater-than-equal
+<= -> Menor que igual / less-than-equal
+> -> Maior que / greater-than
+< -> Menor que / less-than
+true -> Verdadeiro
+false -> Falso
+
+puts -> Put string, exibe uma string com "ENTER" depois
+print -> Exibe uma string na tela sem dar "ENTER" depois
+gets -> Get string, captura o que foi escrito na tela
+chomp -> Remove espaçamento extra (trailing)
+return -> Retorna o valor
+def -> Define um metódo
+end -> Finaliza um metódo
+
+// Metódo
+
+def nome_metodo params
+    ~ codigo ~
+end
+
+def nome_metodo(params)
+    ~ codigo ~
+end
+
+def nome_metodo param1, param2
+    ~ codigo ~
+end
+
+def nome_metodo(param1, param2)
+    ~ codigo ~
+end
+
+def nome_metodo;end
+
+// Arquivos
+
+// Interpolação de string
+"bla bla bla #{variavel} bla"
